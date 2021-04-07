@@ -1,0 +1,25 @@
+{
+  "name": "liveserver",
+  "version": "1.0.0",
+  "description": "live server like chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "sudo node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vishwakneelamegam"
+  },
+  "keywords": [
+    "server",
+    "tower",
+    "live"
+  ],
+  "author": "vishwak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1",
+    "ws": "^7.4.4"
+  }
+}
